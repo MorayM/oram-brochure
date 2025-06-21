@@ -1,0 +1,15 @@
+---
+import { Icon } from 'astro-icon/components'
+
+type Props = { size?: number }
+const { size = 32 } = Astro.props
+---
+
+<a href="https://instagram.com/cephid.world" target="_blank" rel="noreferrer">
+  <span class="sr-only">Follow the festival on Instagram</span>
+  <Icon name="fa6-brands:instagram" width={size} height={size} />
+</a>
+<a href="https://facebook.com/cephid.world" target="_blank" rel="noreferrer">
+  <span class="sr-only">Follow the festival on Facebook</span>
+  <Icon name="fa6-brands:facebook" width={size} height={size} />
+</a>
