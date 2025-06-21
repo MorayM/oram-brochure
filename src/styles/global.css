@@ -103,12 +103,12 @@
 }
 body {
   font-family: 'Atkinson', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   text-align: left;
-  background: linear-gradient(var(--bg-light), var(--bg-dark)) no-repeat;
-  background-size: 100% 600px;
+  background: linear-gradient(var(--bg-light), #e8e8e8) no-repeat;
+  background-size: 100% 100%;
   word-wrap: break-word;
   overflow-wrap: break-word;
   color: var(--text-dark);
